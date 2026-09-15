@@ -4,7 +4,7 @@ name: Monitor Stoc
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}  # permite rularea manuala din tab-ul Actions (buton "Run workflow")
 
 jobs:
