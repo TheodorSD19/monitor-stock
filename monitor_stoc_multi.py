@@ -28,7 +28,7 @@ PRODUCTS = [
     {
         "nume": "PS5 Pro 2TB Alb - Flanco",
         "url": "https://www.flanco.ro/consola-sony-playstation-5-ps5-pro-2-tb-ssd-8k-4k-120-hz-ray-tracing-alb.html",
-        "out_of_stock": "text_fals_de_test",
+        "out_of_stock": "stoc epuizat",
     },
     {
         "nume": "PS5 Pro 2TB White - Media Galaxy",
