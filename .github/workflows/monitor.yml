@@ -4,7 +4,7 @@ on:
   schedule:
     # Ruleaza la fiecare 10 minute. Poti schimba intervalul modificand cron-ul.
     # Atentie: GitHub poate intarzia rularea cu cateva minute in perioadele aglomerate.
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}  # permite rularea manuala din tab-ul Actions (buton "Run workflow")
 
 jobs:
