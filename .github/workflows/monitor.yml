@@ -1,0 +1,37 @@
+name: Monitor Stoc
+
+on:
+  schedule:
+    # Ruleaza la fiecare 10 minute. Poti schimba intervalul modificand cron-ul.
+    # Atentie: GitHub poate intarzia rularea cu cateva minute in perioadele aglomerate.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}  # permite rularea manuala din tab-ul Actions (buton "Run workflow")
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarca codul din repo
+        uses: actions/checkout@v4
+
+      - name: Instaleaza Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instaleaza dependintele
+        run: pip install curl_cffi beautifulsoup4 requests
+
+      - name: Ruleaza scriptul de monitorizare
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+        run: python monitor_stoc_multi.py
+
+      - name: Salveaza fisierele flag inapoi in repo (ca sa nu se repete notificarile)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "*.flag" 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Actualizare fisiere flag [skip ci]"
+          git push || true
