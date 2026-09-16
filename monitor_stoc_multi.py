@@ -31,6 +31,16 @@ PRODUCTS = [
         "out_of_stock": "stoc epuizat",
     },
     {
+        "nume": "Laptop Acer Extensa 15 EX215-41 - Altex",
+        "url": "https://altex.ro/laptop-acer-extensa-15-exo15-41-r0w3-amd-ryzen-5-7430u-pana-la-4-3ghz-15-6-full-hd-16gb-ssd-512gb-amd-radeon-graphics-free-dos-lunar-grey/cpd/NXEL5EX007/",
+        "out_of_stock": "stoc epuizat",
+    },
+    {
+    "nume": "PS5 Pro 2TB White - ForIT",
+    "url": "https://www.forit.ro/consola-jocuri-sony-game-console-sony-playstation-5-pro-2tb-cfi-7121-bp677960",
+    "out_of_stock": "stoc epuizat",
+    },
+    {
         "nume": "PS5 Pro 2TB White - Media Galaxy",
         "url": "https://mediagalaxy.ro/consola-playstation-5-pro-digital-edition-ps5-2tb-white/cpd/CNSPS5PRO2TB/",
         "out_of_stock": "stoc epuizat",
