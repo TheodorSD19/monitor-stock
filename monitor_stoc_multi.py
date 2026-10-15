@@ -26,8 +26,28 @@ PRODUCTS = [
         "out_of_stock": "stoc epuizat",
     },
     {
+        "nume": "PlayStation 5 Slim (PS5) 1TB - Altex",
+        "url": "https://altex.ro/consola-playstation-5-slim-ps5-1tb-e-chassis-white/cpd/1000049742/",
+        "out_of_stock": "stoc epuizat",
+    },
+    {
+        "nume": "PlayStation 5 Slim Digital Edition (PS5) 825GB - Altex",
+        "url": "https://altex.ro/consola-playstation-5-slim-digital-edition-ps5-825gb-e-chassis-white/cpd/1000049751/",
+        "out_of_stock": "stoc epuizat",
+    },
+    {
         "nume": "PS5 Pro 2TB Alb - Flanco",
         "url": "https://www.flanco.ro/consola-sony-playstation-5-ps5-pro-2-tb-ssd-8k-4k-120-hz-ray-tracing-alb.html",
+        "out_of_stock": "stoc epuizat",
+    },
+    {
+        "nume": "PlayStation 5 Slim (PS5) 1TB - Flanco",
+        "url": "https://mediagalaxy.ro/consola-playstation-5-slim-ps5-1tb-e-chassis-white/cpd/1000049742/",
+        "out_of_stock": "stoc epuizat",
+    },
+    {
+        "nume": "Sony PS5 (PlayStation 5), E-Chassis, Slim, DIGITAL Edition 825GB, Alb",
+        "url": "https://www.flanco.ro/consola-sony-ps5-playstation-5-e-chassis-slim-digital-edition-825gb-alb.html",
         "out_of_stock": "stoc epuizat",
     },
     {
