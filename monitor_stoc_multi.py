@@ -60,11 +60,6 @@ PRODUCTS = [
         "url": "https://mediagalaxy.ro/consola-playstation-5-pro-digital-edition-ps5-2tb-white/cpd/CNSPS5PRO2TB/",
         "out_of_stock": "stoc epuizat",
     },
-    {
-        "nume": "Casti Gaming Wireless PlayStation 5 (PS5)",
-        "url": "https://altex.ro/casti-gaming-wireless-playstation-5-ps5-pulse-elite-3d-audio-bluetooth-3-5mm-alb-negru/cpd/CASPS5WSHPUSELI/",
-        "out_of_stock": "stoc epuizat",
-    },
     # Adauga aici alte produse dupa acelasi model, ex:
     # {
     #     "nume": "Alt produs - Alt magazin",
