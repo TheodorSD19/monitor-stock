@@ -61,8 +61,8 @@ PRODUCTS = [
         "out_of_stock": "stoc epuizat",
     },
     {
-        "nume": "Apple Watch SE 3 GPS",
-        "url": "https://www.flanco.ro/apple-watch-se-3-gps-midnight-aluminium-case-44mm-midnight-sport-band-m-l.html",
+        "nume": "Casti Gaming Wireless PlayStation 5 (PS5)",
+        "url": "https://altex.ro/casti-gaming-wireless-playstation-5-ps5-pulse-elite-3d-audio-bluetooth-3-5mm-alb-negru/cpd/CASPS5WSHPUSELI/",
         "out_of_stock": "stoc epuizat",
     },
     # Adauga aici alte produse dupa acelasi model, ex:
