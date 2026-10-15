@@ -61,8 +61,8 @@ PRODUCTS = [
         "out_of_stock": "stoc epuizat",
     },
     {
-        "nume": "Joc Ps5 Take2 Borderlands 4 Standard Edition",
-        "url": "https://www.flanco.ro/joc-ps5-take2-borderlands-4-standard-edition.html",
+        "nume": "Apple Watch SE 3 GPS",
+        "url": "https://www.flanco.ro/apple-watch-se-3-gps-midnight-aluminium-case-44mm-midnight-sport-band-m-l.html",
         "out_of_stock": "stoc epuizat",
     },
     # Adauga aici alte produse dupa acelasi model, ex:
