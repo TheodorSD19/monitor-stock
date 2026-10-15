@@ -60,6 +60,11 @@ PRODUCTS = [
         "url": "https://mediagalaxy.ro/consola-playstation-5-pro-digital-edition-ps5-2tb-white/cpd/CNSPS5PRO2TB/",
         "out_of_stock": "stoc epuizat",
     },
+    {
+        "nume": "Joc Ps5 Take2 Borderlands 4 Standard Edition",
+        "url": "https://www.flanco.ro/joc-ps5-take2-borderlands-4-standard-edition.html",
+        "out_of_stock": "stoc epuizat",
+    },
     # Adauga aici alte produse dupa acelasi model, ex:
     # {
     #     "nume": "Alt produs - Alt magazin",
